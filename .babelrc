@@ -1,0 +1,12 @@
+{
+	"presets": ["env"],
+	"plugins": [
+		[
+			"transform-runtime",
+			{
+				// es6 api的注入应该交给使用者来使用，故此功能应该禁用
+				"polyfill": false
+			}
+		]
+	]
+}
