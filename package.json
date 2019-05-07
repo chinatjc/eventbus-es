@@ -1,6 +1,6 @@
 {
     "name": "eventbus-es",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "",
     "keywords": [
         "js",
@@ -16,6 +16,10 @@
         "build": "webpack --config webpack.config.js",
         "publish": "npm publish ."
     },
+    "files": [
+        "lib/",
+        "src/index.js"
+    ],
     "devDependencies": {
         "babel-core": "^6.26.3",
         "babel-loader": "^7.1.5",
